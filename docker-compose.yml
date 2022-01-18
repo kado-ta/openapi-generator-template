@@ -6,4 +6,4 @@ services:
     volumes:
       - ./:/local
     # More about options: https://openapi-generator.tech/docs/generators/ruby/
-    command: generate -g ruby -i local/openapi.yml -o local/dist -c local/config.json
+    command: generate -g ruby -i local/openapi.yml -o local/generated -c local/config.json
