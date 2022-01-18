@@ -1,0 +1,9 @@
+version: "3"
+services:
+  # TODO: `docker-compose up openapi` を実行すれば、上記で指定したコードが生成される。
+  openapi:
+    image: openapitools/openapi-generator-cli
+    volumes:
+      - ./:/local
+    # More about options: https://openapi-generator.tech/docs/generators/ruby/
+    command: generate -g ruby -i local/openapi.yml -o local/dist -c local/config.json

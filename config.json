@@ -1,0 +1,12 @@
+{
+  "disallowAdditionalPropertiesIfNotPresent" : "false",
+  "gemAuthor" :      "",
+  "gemAuthorEmail" : "",
+  "gemHomepage" :    "",
+  "gemLicense" : "",
+  "gemName" :    "",
+  "moduleName" : "",
+  "gemVersion" : "0.1.0",
+  "gemRequiredRubyVersion" : ">= 2.7.5",
+  "sortModelPropertiesByRequiredFlag" : "false"
+}
